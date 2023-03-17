@@ -1,0 +1,111 @@
+body {
+	background-color: #fafafa;
+	font-family: Arial, sans-serif;
+	padding-bottom: 15px;
+}
+  
+.container {
+	background-color: #fff;
+	max-width: 400px;
+	margin: 50px auto;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	background-color: #f0f0f0;
+	color: #333;
+	font-size: 16px;
+	border: 1px solid black;
+}
+div {
+	margin: 10px dotted blue;
+  }
+
+button {
+	padding: 10px 20px;
+	background-color: #3897f0;
+	color: #fff;
+	margin-bottom: 20px;
+	width: 105%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #357ae8;
+}
+
+input::placeholder {
+    font-weight: arial;
+    opacity: 0.5;
+    color: red;
+}
+
+input::placeholder {
+    font-weight: arial;
+    opacity: 0.5;
+    color: black;
+}
+
+.login-with {
+
+	color: rgb(1, 1, 124);
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.link-forgot{
+	color: grey; 
+	text-decoration: none;
+	font-size: 15px;
+
+}
+
+.containeres {
+	background-color: #fff;
+	max-width: 400px;
+	margin: 50px auto;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.link-signup {
+
+	color: #3897f0;
+	text-decoration: none;
+}
+
+
+  
+  
+  
+  
+
